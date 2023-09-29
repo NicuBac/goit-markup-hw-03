@@ -26,6 +26,10 @@ ul {
   padding: 0;
 }
 
+.section {
+  padding: 95px 215px;
+}
+
 .navigation:hover,
 .navigation:focus, 
 .navigation:active,  
@@ -139,6 +143,7 @@ h1 {
   text-align: center;
   font-size: 36px;
   line-height: 2.5;
+  padding-bottom: 50px;
 }
 
 /* Our team styling */
@@ -171,11 +176,6 @@ h1 {
 .staff-names {
   font-size: 1.2em;
   margin: 10px 0;
-}
-
-
-.staff {
-  padding: 50px 215px 95px 215px;
 }
 
 
@@ -256,8 +256,7 @@ footer {
 
 /* Description list styling */
 .main-description {
-  /* text-align: start; */
-  padding: 50px 215px 95px 215px;
+  padding:95px 215px 0;
 }
 
 .main-description ul {
@@ -299,7 +298,8 @@ footer {
 }
 
 .services-list {
-  padding: 50px 215px 95px 215px;
+  display: flex;
+  justify-content: center;
 }
 
 .footer-logo {
